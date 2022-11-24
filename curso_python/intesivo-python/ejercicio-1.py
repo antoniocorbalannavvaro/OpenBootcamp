@@ -40,5 +40,5 @@ def fill_array():
     
 files = fill_array()
 
-print(files[0])
+print(files)
 

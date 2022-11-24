@@ -28,7 +28,6 @@ class Diary:
                 pass
             
         self.contacts = list(filter(None, self.contacts))
-
                 
     def get_phone(self, name):
         for i in self.contacts:

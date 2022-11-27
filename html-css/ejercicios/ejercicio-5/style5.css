@@ -1,0 +1,25 @@
+body {
+    width: min-content;
+    height: min-content;
+    border-style: solid;
+    border-radius: 19px;
+    border-color: darkgray;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 1);
+}
+
+.encabezado {
+    width: 500px;
+    height: min-content;
+    position: relative;
+    padding: 10px;
+    text-align: justify;
+}
+
+#titulo {
+    text-align: center;
+}
+
+#elemento-1 {
+    color: red;
+    font-size: 2em;
+}

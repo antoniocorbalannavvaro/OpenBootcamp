@@ -1,0 +1,14 @@
+.contenedor-imagenes {
+    display: flexbox;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: fit-content;
+    padding: 10px 10px;
+    background: bisque;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.imagen-galeria {
+    width: 300px;
+}

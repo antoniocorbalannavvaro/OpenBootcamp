@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,500&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+html {
+    color:white;
+    background-color: #161717;
+}
+
+.main-container {
+ /*    width: 40%; */
+    margin-left: 30%;
+    margin-top: 60px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.google-btn {
+    display: flex;
+    align-items: center;
+    background-color: rgb(35,115,232);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 226px;
+}
+
+.google-btn:hover {
+    cursor: pointer;
+    background-color: rgb(88, 149, 241);
+    transition: background-color 100ms linear;
+}
+
+.google-btn picture {
+    width: 35px;
+    height: 90%;
+    margin: 2px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-btn picture img {
+    width: 55%;
+    height: 55%;
+}
+
+.google-btn span {
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+}
+
+.twitter-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    border: none;
+    border-radius: 4px;
+}
+
+.twitter-btn:hover {
+    background-color: rgb(220, 220, 220);
+    transition: background-color 100ms linear;
+    cursor: pointer;
+}
+
+.twitter-btn picture img {
+    margin-top: 4px;
+    margin-left: 2px;
+    width: 35%;
+}
+
+.separator {
+    color: rgba(69, 69, 69, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    gap: 15px;
+}
+
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border: 0.1px solid #ccc
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    gap: 10px;
+}
+
+input {
+    text-align: left;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #212121;
+    height: 35px;
+}
+
+input:hover {
+    background-color: #454045;
+    box-shadow: 0 0 0 4px #ffa7a74b;
+    transition: box-shadow 150ms linear;
+}
+
+.section-1 label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    gap: 10px
+}
+
+.section-2 label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    gap: 10px;
+    width: 430px;
+}
+
+.section-1, .section-2 label span {
+    font-weight: 700 ;
+}
+
+.checkbox-input {
+    width: 40px;
+}
+
+.check-container {
+    width: 400px;
+}
+
+.check-container label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px
+}
+
+.checkbox-text {
+    font-size: smaller;
+    color: rgb(119, 118, 118);
+
+}
+
+.submit-btn {
+    border: none;
+    border-radius: 7px;
+    background-color: #EA4C89;
+    color: white;
+    width: 170px;
+    height: 40px;
+    font-size: small;
+    font-weight: 600;
+}
+
+.submit-btn:hover {
+    opacity: 0.6;
+}
+
+.cap-container {
+    width: 400px;
+    font-size: smaller;
+    color: rgb(119, 118, 118);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-left {
+    background-color: #F2D184;
+    position: fixed;
+    width: 40%;
+    height: 100%;
+    bottom: 0px;
+    overflow: hidden;
+    color: #866118;
+    text-align: left;
+}
+
+.member {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: smaller;
+}
+
+a {
+    color:rgb(88, 149, 241);
+    cursor: pointer
+}
+
+a:hover {
+    color: rgb(157, 249, 249);
+}
+
+.box-text {
+    margin-top: 20%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    gap: 30px;
+}

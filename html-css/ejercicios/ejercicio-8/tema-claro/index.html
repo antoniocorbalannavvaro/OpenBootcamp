@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Sign up to Dribbble</h3>
+        <div class="buttons">
+            <button class="google-btn">
+                <picture>
+                    <img src="https://freesvg.org/img/1534129544.png" alt=""/>
+                </picture>
+                <span>Registrase con Google</span>
+            </button>
+
+            <button class="twitter-btn">
+                <picture>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png" alt=""/>
+                </picture>
+            </button>
+        </div>
+
+        <div class="separator">
+            <hr>
+            <span>Or</span>
+            <hr>
+        </div>
+
+        <form action="submit" method="GET"></form>
+        <div class="section-1">
+            <div class="name-input">
+                <label for="name">
+                    <span>Name</span>
+                    <input id="name" name="name" type="text" required>
+                </label>
+            </div>
+            <div class="username-input">
+                <label for="username">
+                    <span>Username</span>
+                    <input id="username" name="username" type="text" required>
+                </label>
+            </div>
+        </div>
+
+        <div class="section-2">
+            <div class="email-input">
+                <label for="email">
+                    <span>Email</span>
+                    <input id="email" name="email" type="email" required>
+                </label>
+            </div>
+           <div class="password-input">
+                <label for="password">
+                    <span>Password</span>
+                    <input id="password" name="password" type="password" placeholder="6+ characters" required>
+                </label>
+           </div>
+        </div>
+
+        <div class="check-container">
+            <label for="checkbox">
+                <input class="checkbox-input" id="checkbox" name="checkbox" type="checkbox" required>
+                <span class="checkbox-text">Creating an account means you’re okay with our Terms of Service, Privacy Policy, and our default Notification Settings.</span>
+            </label>
+        </div>
+        
+        <button class="submit-btn" type="submit">Create account</button>
+
+        <div class="cap-container">
+            <span>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</span>
+       </div>
+    </div>
+    </div>
+</body>
+</html>
